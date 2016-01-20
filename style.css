@@ -1,0 +1,67 @@
+/*
+ Theme Name:   KWM Whitelight
+ Theme URI:    
+ Description:  Child theme of Whitelight for Kingdom Way Ministries, based on Media Salad's child theme.
+ Author:       Star Verte LLC
+ Template:     whitelight
+ Version:      0.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  whitelight-kwm
+*/
+
+@import url(../whitelight/style.css);
+
+/*
+ * Header/Navigation
+ */
+#text-title{
+  font-family:'Raleway','Helvetica', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 46px;	
+  margin: 23px 0 0 95px;
+  line-height: 0.9;
+}
+#logo{
+  position: static;
+  float: left;
+  margin-right: 10px;
+}
+#logo img {
+  width: 85px;
+}
+@media all and (min-width:768px){
+  #header{
+    padding-top: 14px;
+    padding-bottom: 16px;
+  }
+  #header .col-full{
+    max-width: none;
+  }
+  #top{
+    background: none;
+  }
+  #text-title{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 46px;	
+    margin: 34px 0 0 60px;
+    line-height: 1.2em;
+  }
+  #navigation{
+    margin-left: 55px;
+  }
+  #logo{
+    position: absolute;
+    top: -40px;
+  }
+  #logo img{
+    width: 115px;
+  }
+}
+
+.entry-content {
+  font-size: 15px;
+}
