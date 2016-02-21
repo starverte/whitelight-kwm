@@ -102,14 +102,14 @@ $settings = woo_get_dynamic_values( $settings );
           // Determine wether or not to display comments here, based on "Theme Options".
           if ( isset( $woo_options['woo_comments'] ) && in_array( $woo_options['woo_comments'], array( 'post', 'both' ) ) ) {
           comments_template();
-          }
+          } ?>
 
           <?php woo_subscribe_connect(); ?>
 
           <nav id="post-entries" class="fix">
             <div class="nav-prev fl"><?php previous_post_link( '%link', '<span class="meta-nav">&larr;</span> %title' ); ?></div>
             <div class="nav-next fr"><?php next_post_link( '%link', '%title <span class="meta-nav">&rarr;</span>' ); ?></div>
-          </nav><!-- #post-entries -->
+          </nav><!-- #post-entries --><?php
         } // End WHILE Loop
       } else { ?>
         <article <?php post_class(); ?>>
