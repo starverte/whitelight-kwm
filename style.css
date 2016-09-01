@@ -65,6 +65,9 @@ body {
   #logo img{
     width: 115px;
   }
+  #intro h1 {
+    font: normal 3.1em/1.1 "Helvetica", sans-serif !important;
+  }
 }
 
 .entry-content {
